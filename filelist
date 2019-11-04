@@ -17,12 +17,8 @@ desktop=desktop,x,shell,shell-extra,scripts,scripts-mod,scripts-daemon,config,ma
 .bash_profile:shell
 .config/fish/config.fish:shell
 
-.bash_extra:shell-extra
 
-.bash_local:laptop
-
-
-# scripts, scripts-mod, scripts-daemon
+# scripts
 .scripts/color_script.sh:laptop
 
 
