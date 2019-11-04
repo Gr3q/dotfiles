@@ -20,7 +20,6 @@ desktop=desktop,x,shell,shell-extra,scripts,scripts-mod,scripts-daemon,config,ma
 .bash_extra:shell-extra
 
 .bash_local:laptop
-#.ssh/config:shell
 
 
 # scripts, scripts-mod, scripts-daemon
