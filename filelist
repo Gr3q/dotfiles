@@ -1,0 +1,44 @@
+# x: xinit, window manager and status bar
+# shell: basic shell aliases and environment variables
+# shell-extra: extra shell configs that are more personalized
+# scripts: globally useful scripts
+# scripts-mod: scripts that modify options of the platform e.g. the volume
+# scripts-daemon: scripts that run in the background and should be run by cron
+# config: config files for misc programs
+
+laptop=laptop,x,shell,shell-extra,scripts,scripts-mod,scripts-daemon,config,mail,apps
+desktop=desktop,x,shell,shell-extra,scripts,scripts-mod,scripts-daemon,config,mail,apps
+
+# x
+
+
+# shell, shell-extra
+.bashrc:shell
+.bash_profile:shell
+.config/fish/config.fish:shell
+
+.bash_extra:shell-extra
+
+.bash_local:laptop
+#.ssh/config:shell
+
+
+# scripts, scripts-mod, scripts-daemon
+.scripts/color_script.sh:laptop
+
+
+# config
+.gitconfig:config
+.nanorc:config
+
+# mail
+.config/geary/account_01/geary.ini:mail
+.config/geary/account_02/geary.ini:mail
+.config/geary/account_1572449816_0/geary.ini:mail
+
+# SelekTOR
+.SelekTOR/3xx/favourites.txt:apps
+.SelekTOR/3xx/guardwhitelist.txt:apps
+
+# VSCode
+.config/Code/User/settings.json:apps
